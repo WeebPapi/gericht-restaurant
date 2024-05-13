@@ -1,0 +1,53 @@
+.gericht__menuitem {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 25.75rem;
+    height: 4.125rem;
+    margin-bottom: 2rem;
+}
+.gericht__menuitem_top .gericht__menuitem_info_heading {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--color-golden);
+    margin: 0;
+    flex: 3;
+}
+.gericht__menuitem_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+.gericht__menuitem_bottom .gericht__menuitem_info_tags {
+    text-align: left;
+    font-size: 16px;
+    margin: 0;
+    color: var(--color-grey);
+}
+.gericht__menuitem .gericht__menuitem_price {
+    margin: 0;
+    font-size: 23px;
+    padding: 0 0 0 2.2rem;
+}
+.gericht__menuitem_bar {
+    width: 7.4rem;
+    height: 1px;
+    background-color: var(--color-grey);
+}
+@media screen and (max-width:650px){
+    .gericht__menuitem_top .gericht__menuitem_info_heading, .gericht__menuitem_top .gericht__menuitem_price{
+        font-size: 18px;
+    }
+    .gericht__menuitem_bottom .gericht__menuitem_info_tags {
+        font-size: 12px;
+    }
+    .gericht__menuitem {
+        width: 18rem;
+    }
+    
+}

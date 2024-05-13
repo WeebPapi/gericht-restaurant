@@ -1,0 +1,123 @@
+.gericht__navbar {
+    width: 100%;
+    background-color: var(--color-black);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    max-height: 7.56rem;
+}
+.gericht__navbar-logo{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+
+.gericht__navbar-logo img {
+    width: 12.44rem;
+}
+
+ul {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+li {
+    margin: 0 1rem;
+    color: white;
+    cursor: pointer;
+    font-family: var(--font-alt);
+    line-height: 1.75rem;
+}
+li:hover {
+    color: var(--color-gray);
+}
+.gericht__navbar-signup {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.gericht__navbar-signup_bar {
+    width: 1px;
+    height: 30px;
+    
+    background-image: radial-gradient(50% 50% at 50% 50%, #FFFFFF 58.85%, rgba(255, 255, 255, 0) 100%);
+}
+.gericht__navbar-signup p {
+    font-family: var(--font-alt);
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    line-height: 1.75rem;
+    margin: 0 1rem;
+    transition: 0.5s ease;
+}
+.gericht__navbar-signup p:hover {
+    border-bottom: 1px solid var(--color-golden);
+}
+.gericht__navbar-smallscreen {
+    display: none;
+}
+.gericht__navbar-smallscreen-links-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;   
+    background: var(--color-black);
+    transition: 0.5s ease;
+    flex-direction: column;
+    z-index: 5;
+}
+.gericht__navbar-smallscreen-links-overlay .overlay__close {
+    font-size: 27px;
+    color: var(--color-golden);
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+@media screen and (max-width: 2000px){
+    .gericht__navbar-logo img {
+        width: 14rem;
+    }
+}
+@media screen and (max-width: 1150px) {
+    .gericht__navbar-links {
+        display: none;
+    }
+    .gericht__navbar-smallscreen {
+        display: flex;
+    }
+    .gericht__navbar-smallscreen-links {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    .gericht__navbar-smallscreen-links li {
+        font-size: 2rem;
+        color: var(--color-golden);
+        margin: 2rem;
+        text-align: center;
+        font-family: var(--font-base);
+    }
+    .gericht__navbar-smallscreen-links li:hover {
+        color: var(--color-white);
+    }
+}
+
+@media screen and (max-width: 650px){
+    .gericht__navbar {
+        padding: 1rem;
+    }
+    .gericht__navbar-signup {
+        display: none;
+    }
+    .gericht__navbar-logo img {
+        width: 9rem;
+    }
+}
