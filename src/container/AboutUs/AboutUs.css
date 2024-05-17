@@ -73,3 +73,13 @@
         font-size: 3.25rem;
     }
 }
+@media screen and (max-width: 350px){
+    .gericht__aboutus-content_about p, .gericht__aboutus-content_history p {
+        width: 18rem;
+        font-size: 0.7rem;
+    }
+    .gericht__aboutus-content_about h1, .gericht__aboutus-content_history h1 {
+        width: 18rem;
+        font-size: 3.1rem;
+    }
+}

@@ -72,3 +72,60 @@
     width: 14.6875rem;
     height: 5.1875rem;
 }
+@media screen and (max-width: 900px){
+    .gericht__chef {
+        flex-direction: column;
+    }
+    .gericht__chef_image {
+        margin-bottom: 1rem;
+    }
+}
+@media screen and (max-width: 650px){
+    .gericht__chef_image img {
+        width: 30rem;
+        height: 41rem;
+    }
+    .gericht__chef_image {
+        margin-bottom: 2rem;
+    }
+    .gericht__chef_text h1 {
+        font-size: 48px;
+    }
+    .gericht__chef_text_paragraphs .gericht__chef_text_quotes {
+        width: 40px;
+        height: 33px;
+    }
+}
+@media screen and (max-width: 350px) {
+    .gericht__chef_image img {
+        width: 18rem;
+        height: 22rem;
+    }
+    .gericht__chef_text {
+        height: 32rem;
+    }
+    .gericht__chef_text h1 {
+        font-size: 30px;
+    }
+    .gericht__chef_text_paragraphs .gericht__chef_text_quotes {
+        width: 32px;
+        height: 25px;
+    }
+    .gericht__chef_text_paragraphs .gericht__chef__text_comment {
+        font-size: 13px;
+    }
+    .gericht__chef_text_identity  {
+        height: 2.85rem; 
+    }
+    .gericht__chef_text_identity h2 {
+        font-size: 24px;
+
+    }
+    .gericht__chef_text_identity p {
+        font-size: 14px;
+    }
+    .gericht__chef_text_signature img {
+        width: 7rem;
+        height: 2.5rem;
+    }
+}
