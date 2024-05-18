@@ -1,0 +1,128 @@
+.gericht__laurels_logo {
+    position: absolute;
+    inset: 0;
+}
+
+.gericht__laurels_body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 691px;
+    max-width: 1450px;
+}
+.gericht__laurels_body-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    height: 70%;
+    width: fit-content;
+    margin-right: 6rem;
+}
+.gericht__laurels_body-text_grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 4rem 2rem;
+}
+.gericht__laurels_body-image {
+    height: 100%;
+}
+.gericht__laurels_body-image img {
+    max-width: 35rem;
+    height: 100%;
+}
+@media screen and (max-width: 1150px) {
+    .gericht__laurels_body-image img {
+        max-width: 25rem;
+    }
+    .gericht__laurels_body {
+        height: 600px;
+    }
+    .gericht__laurels_body-text {
+        margin-right: 4rem;
+    }
+    .gericht__laurels_body-text_grid {
+        gap: 3rem 1.5rem;
+    }
+}
+@media screen and (max-width: 900px) {
+    .gericht__laurels_body-image img {
+        max-width: 19rem;
+        height: 80%;
+    }
+    .gericht__laurels_body {
+        height: 580px;
+    }
+    .gericht__laurels_body-text_heading {
+        height: 113px;
+    }
+    .gericht__laurels_body-text_heading > div{
+        margin-bottom: 0;
+    }
+    .gericht__laurels_body-text {
+        margin-right: 2rem;
+        height: 60%;
+    }
+    .gericht__laurels_body-text_grid {
+        gap: 2rem 1rem;
+    }
+    .gericht__laurels_body-text_heading h2 {
+        font-size: 50px;
+        line-height: 48px;
+    }
+}
+@media screen and (max-width: 780px) {
+    .gericht__laurels_body {
+        height: 1300px;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .gericht__laurels_body-text {
+        margin: 0;
+        justify-content: space-evenly;
+    }
+    .gericht__laurels_body-image {
+        height: 550px;
+    }
+    .gericht__laurels_body-image img {
+        max-width: 23rem;
+        height: 80%;
+    }
+    .gericht__laurels_body-text_grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .gericht__laurel {
+        margin-bottom: 2rem;
+    }
+}
+@media screen and (max-width:650px) {
+    .gericht__laurels_body-text_heading h2 {
+        font-size: 44px;
+        line-height: 38px;
+    }
+    .gericht__laurels_body-image {
+        height: 500px;
+    }
+    .gericht__laurels_body-image img {
+        max-width: unset;
+        width: 23rem;
+        height: 100%;
+    }
+}
+@media screen and (max-width:450px) {
+    .gericht__laurels_body {
+        height: 1200px;
+    }
+    .gericht__laurels_body-image {
+        height: 400px;
+    }
+    .gericht__laurels_body-image img {
+        width: 16rem;
+        height: 100%;
+    }
+    .gericht__laurel {
+        margin-bottom: 3rem;
+    }
+}

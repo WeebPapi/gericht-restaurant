@@ -1,0 +1,96 @@
+.gericht__laurel {
+    height: 5.875rem;
+    width: 18.8125rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.gericht__laurel img {
+    width: 4.875rem;
+    height: 4.875rem;
+    
+}
+.gericht__laurel_text {
+    width: 11.875rem;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gericht__laurel .headtext__cormorant {
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 29.9px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--color-golden);
+}
+.gericht__laurel .p__opensans {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--color-grey);
+}
+@media screen and (max-width: 900px) {
+    .gericht__laurel {
+        height: 5.25rem;
+        width: 13rem;
+    }
+    .gericht__laurel img {
+        width: 4.25rem;
+        height: 4.25rem;
+        
+    }
+    .gericht__laurel_text {
+        width: 8rem;
+        height: 100%;
+    }
+    .gericht__laurel .headtext__cormorant {
+        font-size: 20px;
+    }
+    .gericht__laurel .p__opensans {
+        font-size: 12px;
+    }
+}
+@media screen and (max-width:650px) {
+    .gericht__laurel {
+        height: 5.875rem;
+        width: 18.8125rem;
+    }
+    .gericht__laurel img {
+        width: 4.875rem;
+        height: 4.875rem;       
+    }
+    .gericht__laurel_text {
+        width: 11.875rem;
+        height: 100%;
+    }
+    .gericht__laurel .headtext__cormorant {
+        font-size: 21px;
+    }
+    .gericht__laurel .p__opensans {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:450px) {
+    .gericht__laurel {
+        height: 4.25rem;
+        width: 13rem;
+    }
+    .gericht__laurel img {
+        width: 3.5rem;
+        height: 3.5rem;       
+    }
+    .gericht__laurel_text {
+        width: 7rem;
+        height: 100%;
+    }
+    .gericht__laurel .headtext__cormorant {
+        font-size: 19px;
+    }
+    .gericht__laurel .p__opensans {
+        font-size: 11px;
+    }
+}
