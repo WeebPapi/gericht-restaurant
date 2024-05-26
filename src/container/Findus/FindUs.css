@@ -1,0 +1,67 @@
+.gericht__findus_text {
+    height: 488px;
+    min-width: 40% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: left;
+}
+.gericht__findus_text-address > p {
+    color: var(--color-grey);
+    margin-bottom: 2rem;
+}
+.gericht__findus_text-address-times {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.gericht__findus_text-address-times > h5 {
+    font-size: 23px;
+    line-height: 28px;
+}
+.gericht__findus_text-address-times > * {
+    margin-bottom: 1rem;
+}
+
+.gericht__findus_image  {
+    max-width: 619px;
+    min-height: 650px;
+}
+.gericht__findus_image img {
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:900px) {
+    .gericht__findus_image  {
+        max-width: 319px;
+        min-height: 350px;
+    }
+    .gericht__findus_text {
+        min-width: 30% ;
+    }
+    .gericht__findus_text-address > p, .gericht__findus_text-address-times > p {
+        font-size: 14px;
+    }
+    .gericht__findus_text-heading h2 {
+        font-size: 56px;
+    }
+    .gericht__findus_text-address-times > h5 {
+        font-size: 21px;
+    }
+}
+@media screen and (max-width:650px){
+    .gericht__findus {
+        flex-direction: column;
+    }
+    .gericht__findus_text {
+        height: 420px;
+    }
+    .gericht__findus_image  {
+        margin-top: 6rem;
+    }
+    .gericht__findus_image  {
+        max-width: 369px;
+        min-height: 400px;
+    }
+}
