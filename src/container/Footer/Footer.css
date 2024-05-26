@@ -1,0 +1,94 @@
+.gericht__footer {
+    height: max-content;
+    display: flex;
+    flex-direction: column;
+    text-align: center!important;
+}
+.gericht__footer_newsletter {
+    margin-bottom: 4rem;
+}
+.gericht__footer_text {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+    min-height: 236px;
+    margin-bottom: 4rem;
+}
+.gericht__footer_text-contact > h4, .gericht__footer_text-hours h4{
+    font-size: 32px;
+    color: rgba(245, 239, 219, 1);
+    font-weight: 400;
+}
+.gericht__footer_text-contact > p, .gericht__footer_text-hours p{
+    color: var(--color-grey);
+    font-weight: 400;
+}
+.gericht__footer_text-contact p:first-of-type, .gericht__footer_text-hours p:first-of-type{
+    margin-bottom: 0.75rem;
+}
+.gericht__footer_text-logo {
+    width: 438px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.gericht__footer_text-logo > h2 {
+    margin-bottom: 2rem;
+}
+.gericht__footer_text-logo_icons {
+    width: 104px;
+    display: flex;
+    justify-content: space-between;
+}
+.gericht__footer_text-logo_icons > * {
+    color: white;
+    font-size: 24px;
+    cursor: pointer;
+}
+.gericht__footer-trademark {
+    color: #AAAAAA;
+    margin-left: 5rem;
+}
+@media screen and (max-width: 900px) {
+    .gericht__footer_text-contact > h4, .gericht__footer_text-hours h4{
+        font-size: 26px;
+        line-height: 30px;
+        margin-bottom: 2rem;
+    }
+    .gericht__footer_text-contact > p, .gericht__footer_text-hours > p, .gericht__footer_text-logo > p{
+        font-size: 13px;
+    }
+    .gericht__footer_text-logo > h2 {
+        font-size: 54px;
+    }
+    .gericht__footer_text-logo {
+        max-width: 400px;
+    }
+    .gericht__footer-trademark p {
+        font-size: 13px;
+    }
+}
+@media screen and (max-width: 650px){
+    .gericht__footer_text {
+        flex-direction: column;
+    }
+    .gericht__footer_text > * {
+        margin-bottom: 2rem;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .gericht__footer_text-logo {
+        max-width: unset;
+        width: 100%;
+    }
+    .gericht__footer_text-logo_icons {
+        margin-top: 1rem;
+    }
+    .gericht__footer-trademark {
+        margin: 0;
+    }
+}

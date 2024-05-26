@@ -1,6 +1,5 @@
 import SubHeading from './SubHeading/SubHeading';
 import Newsletter from './Footer/Newsletter';
-import FooterOverlay from './Footer/FooterOverlay';
 import MenuItem from './Menuitem/MenuItem';
 import Navbar from './Navbar/Navbar';
 import Laurel from './Laurel/Laurel'
@@ -8,7 +7,6 @@ import Laurel from './Laurel/Laurel'
 export {
   SubHeading,
   Newsletter,
-  FooterOverlay,
   MenuItem,
   Navbar,
   Laurel,
